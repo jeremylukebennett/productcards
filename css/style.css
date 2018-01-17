@@ -1,7 +1,28 @@
-.border {
+.card-styles {
     border: 1px solid lightblue;
+    width: 30%;
 }
 
-* {
-    border: solid red 1px;
+.card-styles > header {
+    border: 1px dotted lightblue;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+img + p {
+    text-align: justify;
+    margin: 0 5px;
+}
+
+section h3 ~ div {
+    font-weight: 900;
+}
+
+.availability-indicator {
+    color: rgb(255, 0, 55);
+    background-color: grey;
 }
