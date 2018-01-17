@@ -1,0 +1,7 @@
+.border {
+    border: 1px solid lightblue;
+}
+
+* {
+    border: solid red 1px;
+}
