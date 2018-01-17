@@ -2,6 +2,7 @@
 .card-styles {
     border: 1px solid lightblue;
     width: 30%;
+    margin-bottom: 2em;
 }
 /* I can't seem to get these cards to display side-by-side. I've tried displaying inline and flexbox... hmmmmmm */
 .card-styles > header {
