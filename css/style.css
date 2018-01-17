@@ -1,8 +1,9 @@
+
 .card-styles {
     border: 1px solid lightblue;
     width: 30%;
 }
-
+/* I can't seem to get these cards to display side-by-side. I've tried displaying inline and flexbox... hmmmmmm */
 .card-styles > header {
     border: 1px dotted lightblue;
     text-align: center;
@@ -18,11 +19,23 @@ img + p {
     margin: 0 5px;
 }
 
-section h3 ~ div {
+section h3 ~ ul {
     font-weight: 900;
+}
+
+li {
+    list-style-type: none;
 }
 
 .availability-indicator {
     color: rgb(255, 0, 55);
     background-color: grey;
+}
+
+h3 {
+    margin: 0 0 -.5em 1em;;
+}
+
+footer {
+    margin: -.7em 0 .7em 0;
 }
